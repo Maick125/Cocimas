@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cocinas Integrales - Misión, Visión y Valores</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* Header */
+    header {
+      background-color: #212529;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+    }
+    .carousel-inner {
+  min-height: 380px; /* Ajusta este valor según tu contenido */
+}
+    
+
+    header img {
+      height: 60px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+
+    /* Carrusel */
+    .carousel-item {
+      padding: 3rem 2rem;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .carousel-item h2 {
+      color: #b33c00;
+      margin-bottom: 1rem;
+    }
+
+    .carousel-item p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    /* Galería */
+    .gallery {
+      padding: 3rem 1rem;
+      background-color: #fff;
+    }
+
+    .gallery h2 {
+      text-align: center;
+      color: #b33c00;
+      margin-bottom: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .social-icons a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #b33c00;
+    }
+
+    .qr-container {
+      margin-top: 1.5rem;
+    }
+
+    .qr-container img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      header h1 {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <img src="images/logo.jpg" alt="Logo Cocinas Integrales">
+    <h1>Cocimas | Cocinas integrales</h1>
+    <p>25 años de experiencia</p>
+  </header>
+
+  <!-- CARRUSEL -->
+  <div id="infoCarousel" class="carousel slide mt-4 container" data-bs-ride="false">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <h2>Misión</h2>
+        <p>
+          Diseñamos y fabricamos cocinas integrales que inspiran.
+          Con 25 años de experiencia, transformamos cada espacio en un lugar funcional, estético y lleno de estilo.
+          Nos apasiona crear cocinas a la medida de tus sueños, con la calidad y confianza que solo la experiencia puede brindar.
+        </p>
+      </div>
+
+      <div class="carousel-item">
+        <h2>Visión</h2>
+        <p>
+          Ser la marca mexicana de cocinas integrales más reconocida por su diseño, calidad y servicio excepcional.
+          Queremos que cada hogar tenga una cocina que refleje personalidad, innovación y el compromiso que nos distingue desde hace más de dos décadas.
+        </p>
+      </div>
+
+      <div class="carousel-item">
+        <h2>Valores</h2>
+        <p>
+          <strong>Calidad:</strong> Trabajamos con los mejores materiales y acabados.<br>
+          <strong>Diseño:</strong> Cada cocina es única, creada con atención a los detalles.<br>
+          <strong>Experiencia:</strong> Más de 25 años nos respaldan.<br>
+          <strong>Innovación:</strong> Evolucionamos constantemente.<br>
+          <strong>Compromiso:</strong> Cumplimos lo que prometemos.<br>
+          <strong>Cercanía:</strong> Escuchamos y acompañamos a nuestros clientes.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Controles del carrusel -->
+    
+  </div>
+
+  <!-- GALERÍA -->
+  <section class="gallery">
+    <div class="container">
+      <h2>Galería de Muestras</h2>
+      <div class="row" id="galleryContainer"></div>
+    </div>
+  </section>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.2544357773695!2d-103.36529600000001!3d20.6592251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ad437bb4990b%3A0xc60d5d663fbbedb7!2sCocimas!5e0!3m2!1ses-419!2smx!4v1762221310219!5m2!1ses-419!2smx"  width="100%" 
+    height="350" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- FOOTER -->
+  <footer>
+    <h5>Contáctanos</h5>
+    <p>📞 Tel: +52 3334903474</p>
+
+    <div class="social-icons mb-3">
+      
+      <a href="https://www.instagram.com/cocimas.integrales?igsh=MWppdTkxY2R5c2RubA== " target="_blank"><i class="bi bi-instagram"></i></a>
+      
+    </div>
+
+    <div class="qr-container">
+      <p>Escanea el código para contactarnos por WhatsApp:</p>
+      <a href="https://wa.me/523334903474" target="_blank">
+        <img src="images/frame.png" alt="QR WhatsApp">
+      </a>
+    </div>
+
+    <p class="mt-3 mb-0">&copy; 2025 Cocimas| Todos los derechos reservados</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // --- GALERÍA ---
+    const totalImages = 67; // Cambia según tus imágenes
+    const galleryContainer = document.getElementById("galleryContainer");
+
+    for (let i = 1; i <= totalImages; i++) {
+      const col = document.createElement("div");
+      col.className = "col-12 col-sm-6 col-md-4 col-lg-3 mb-4";
+      const img = document.createElement("img");
+      const p = document.createElement("p");
+      img.src = `images/galeria/IMG-20251103-WA00${i}.jpg`;
+      img.alt = `Cocina ${i}`;
+      col.appendChild(img);
+      p.textContent = `# ${i}`;
+      col.appendChild(p);
+      galleryContainer.appendChild(col);
+    }
+
+    // --- CARRUSEL AUTOMÁTICO AL PASAR EL CURSOR ---
+    const carouselElement = document.querySelector('#infoCarousel');
+    const carousel = new bootstrap.Carousel(carouselElement, { interval: false });
+
+    carouselElement.addEventListener('mouseenter', () => {
+      carousel.cycle(); // inicia movimiento
+    });
+
+    carouselElement.addEventListener('mouseleave', () => {
+      carousel.pause(); // pausa cuando el mouse sale
+    });
+  </script>
+</body>
+</html>
+
